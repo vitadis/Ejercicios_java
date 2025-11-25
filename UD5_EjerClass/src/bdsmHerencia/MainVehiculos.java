@@ -30,7 +30,7 @@ public class MainVehiculos {
 			new Patinette("PeloBrocoli","enano",12.3,20),
 			new Patinette("Segarro","PosteLuz",12.3,10),
 			new Patinette("Porrero","morat",12.3,20),
-			new Patinette("PeloBrocoli","enano",12.3,20)	
+			new Patinette("david","pedrata",12.3,20)	
 		};
 		
 		for(Patinette x: patiness) {
@@ -39,7 +39,7 @@ public class MainVehiculos {
 		
 		Vehiculo[] vehiculos = {	
 			new Patinette("PeloBrocoli","enano",(double)12.3,20)
-				
+			
 		};
 	}
 
