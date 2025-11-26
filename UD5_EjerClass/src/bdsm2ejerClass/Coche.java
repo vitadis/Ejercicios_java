@@ -1,11 +1,11 @@
 package bdsm2ejerClass;
 
-public class CocheMalparido {
+public class Coche {
 
 	private String matricula, color, modelo, marca;
 	private static int nCoches =0;
 	
-	public CocheMalparido() {
+	public Coche() {
 		this.matricula = null;
 		this.color = null;
 		this.modelo = null;
@@ -13,7 +13,7 @@ public class CocheMalparido {
 		nCoches++;
 	}
 
-	public CocheMalparido(String matricula, String color, String modelo, String marca) {
+	public Coche(String matricula, String color, String modelo, String marca) {
 		this.matricula = matricula;
 		this.color = color;
 		this.modelo = modelo;
